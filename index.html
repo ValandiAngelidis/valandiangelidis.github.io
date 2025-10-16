@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valandi Angelidis — Developer Portfolio</title>
+  <!-- VERSION: v3 -->
+  <style>
+    :root{--bg:#0e1217;--panel:#141922;--muted:#aeb3bd;--text:#f5f7fb;--accent:#3ea6ff;--card:#1a1f25}
+    *{box-sizing:border-box}html,body{margin:0}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+
+    /* Top nav */
+    .nav{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;padding:16px 20px}
+    .brand{font-weight:700;letter-spacing:.3px}
+    .badge{font-size:12px;color:#89bfff;border:1px solid #2a3240;padding:3px 6px;border-radius:8px}
+
+    /* HERO */
+    .hero{max-width:1200px;margin:0 auto;padding:40px 20px;display:grid;grid-template-columns:1.3fr 1fr;gap:32px;align-items:center}
+    .h-title{font-size:40px;line-height:1.15;margin:0 0 10px}
+    .h-sub{font-size:18px;color:var(--muted);margin:0 0 14px}
+    .h-text{color:#cbd1db;margin:0 0 18px}
+    .cta{display:flex;gap:12px;margin-top:8px}
+    .btn{background:var(--accent);color:#06233b;padding:10px 14px;border-radius:10px;font-weight:600}
+    .btn.secondary{background:#202734;color:#dfe6f2;border:1px solid #2a3240}
+    .hero-img{background:radial-gradient(1200px 400px at 50% -10%, #17324b55, transparent), linear-gradient(180deg,#0f1319,#0b0f15);border-radius:14px;padding:14px}
+    .hero-img img{width:100%;height:auto;border-radius:10px;box-shadow:0 8px 30px rgba(0,0,0,.35);display:block}
+
+    /* Main layout: sticky sidebar + content */
+    .main{max-width:1200px;margin:8px auto 40px;display:grid;grid-template-columns:300px 1fr;gap:28px;padding:0 20px}
+    aside{position:sticky;top:16px;align-self:start;background:var(--panel);border:1px solid #242b36;border-radius:14px;padding:18px}
+    .aside-title{font-weight:700;margin:0 0 10px}
+    .tagwrap{display:flex;flex-wrap:wrap;gap:8px}
+    .tag{background:#1f2531;border:1px solid #2a3140;color:#cfe3ff;border-radius:999px;padding:6px 10px;font-size:12px}
+
+    /* ------- PROJECT GRID (BIGGER CARDS, ≤10px GAP) ------- */
+    h3.section{margin:0 0 14px}
+    .grid{
+      display:grid;
+      /* bigger minimum card width so cards grow larger */
+      grid-template-columns:repeat(auto-fit, minmax(360px, 1fr));
+      gap:10px;               /* <= 10px spacing as requested */
+      width:100%;
+    }
+    .card{background:var(--card);border:1px solid #242b36;border-radius:12px;overflow:hidden;box-shadow:0 8px 30px rgba(0,0,0,.2)}
+    .thumb{display:block;overflow:hidden}
+    .thumb img{width:100%;height:auto;display:block;transition:transform .35s ease}
+    .card:hover .thumb img{transform:scale(1.03)}
+    .caption{padding:12px 14px;color:#c9d1de;text-align:center;font-size:15px}
+
+    /* Lightbox */
+    .lightbox{position:fixed;inset:0;background:rgba(3,8,15,.86);display:none;align-items:center;justify-content:center;padding:24px;z-index:1000}
+    .lightbox.open{display:flex}
+    .lightbox img{max-width:96vw;max-height:90vh;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,.6)}
+    .lightbox button{position:absolute;top:14px;right:14px;background:#202734;border:1px solid #2a3240;color:#fff;border-radius:10px;padding:8px 12px;cursor:pointer}
+
+    /* Footer */
+    footer{border-top:1px solid #222a36;color:#99a3b3;text-align:center;padding:24px;margin-top:30px}
+
+    /* Responsive tweaks */
+    @media (max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .hero-img{order:-1}
+    }
+    @media (max-width:420px){
+      /* keep cards usable on very small screens */
+      .grid{grid-template-columns:repeat(auto-fit, minmax(260px, 1fr))}
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="brand">Valandi Angelidis</div>
+    <div class="badge">v3</div>
+  </nav>
+
+  <header class="hero">
+    <div>
+      <h1 class="h-title">Full-Stack WordPress Developer</h1>
+      <p class="h-sub">Designer • Automation Engineer • React Gutenberg • Custom Themes/Plugins</p>
+      <p class="h-text">
+        I build intelligent, high-performance digital systems that merge design, code, and AI — with clean
+        architecture, scalability, and great UX at the core.
+      </p>
+      <div class="cta">
+        <a class="btn" href="http://valandiangelidis.com/" target="_blank" rel="noopener">Visit Main Portfolio</a>
+        <a class="btn secondary" href="https://github.com/ellinioofficial-glitch" target="_blank" rel="noopener">GitHub Profile</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="Enola Profile Home.png" alt="Enola Global — Profile view" loading="eager">
+    </div>
+  </header>
+
+  <div class="main">
+    <aside>
+      <p class="aside-title">Tech Focus</p>
+      <div class="tagwrap" style="margin-bottom:14px">
+        <span class="tag">WordPress</span><span class="tag">Gutenberg (React)</span>
+        <span class="tag">PHP</span><span class="tag">JavaScript</span><span class="tag">MySQL</span>
+        <span class="tag">REST API</span><span class="tag">Performance</span><span class="tag">SEO</span>
+        <span class="tag">Automation</span>
+      </div>
+      <p class="aside-title">Contact</p>
+      <p style="margin:0 0 6px">Email: <a href="mailto:info@valandiangelidis.com">info@valandiangelidis.com</a></p>
+      <p style="margin:0">Site: <a href="http://valandiangelidis.com/" target="_blank" rel="noopener">valandiangelidis.com</a></p>
+    </aside>
+
+    <main>
+      <h3 class="section">Project Showcase</h3>
+      <div class="grid">
+        <figure class="card"><a class="thumb" href="Alexandros Traianos.png"><img src="Alexandros Traianos.png" alt="Alexandros Traianos — Medical Website" loading="lazy"></a><figcaption class="caption">Alexandros Traianos — Medical Website</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Athina Traianou.png"><img src="Athina Traianou.png" alt="Athina Traianou — Dermatology" loading="lazy"></a><figcaption class="caption">Athina Traianou — Dermatology Website</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Dermitzakis.png"><img src="Dermitzakis.png" alt="Dermitzakis — Neurology" loading="lazy"></a><figcaption class="caption">Dermitzakis — Neurology Website</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Dimopoulos.png"><img src="Dimopoulos.png" alt="Dimopoulos — Professional Site" loading="lazy"></a><figcaption class="caption">Dimopoulos — Professional Website</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Dr. Kartsiounis.png"><img src="Dr. Kartsiounis.png" alt="Dr. Kartsiounis — Gynecology" loading="lazy"></a><figcaption class="caption">Dr. Kartsiounis — Gynecology Website</figcaption></figure>
+
+        <figure class="card"><a class="thumb" href="Enola Home.png"><img src="Enola Home.png" alt="Enola Global — Home" loading="lazy"></a><figcaption class="caption">Enola Global — Home View</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Enola Blog.png"><img src="Enola Blog.png" alt="Enola Global — Blog" loading="lazy"></a><figcaption class="caption">Enola Global — Blog View</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Enola map.png"><img src="Enola map.png" alt="Enola Global — Map" loading="lazy"></a><figcaption class="caption">Enola Global — Map View</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Enola Profile Home.png"><img src="Enola Profile Home.png" alt="Enola Global — Profile" loading="lazy"></a><figcaption class="caption">Enola Global — Profile View</figcaption></figure>
+
+        <figure class="card"><a class="thumb" href="Helmed Hessen Home.png"><img src="Helmed Hessen Home.png" alt="Helmed — Home" loading="lazy"></a><figcaption class="caption">Helmed — Community Platform Home</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Helmed Hessen Profile Home.png"><img src="Helmed Hessen Profile Home.png" alt="Helmed — Profile" loading="lazy"></a><figcaption class="caption">Helmed — Profile Dashboard</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Helmed Hessen Packages.png"><img src="Helmed Hessen Packages.png" alt="Helmed — Packages" loading="lazy"></a><figcaption class="caption">Helmed — Service Packages</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Helmed Hessen Register.png"><img src="Helmed Hessen Register.png" alt="Helmed — Register" loading="lazy"></a><figcaption class="caption">Helmed — Registration Page</figcaption></figure>
+        <figure class="card"><a class="thumb" href="Helmed Hessen Doctors.png"><img src="Helmed Hessen Doctors.png" alt="Helmed — Doctors" loading="lazy"></a><figcaption class="caption">Helmed — Doctor Listings</figcaption></figure>
+
+        <figure class="card"><a class="thumb" href="Orthodontist Home.png"><img src="Orthodontist Home.png" alt="Orthodontist — Clinic Home" loading="lazy"></a><figcaption class="caption">Orthodontist — Clinic Website</figcaption></figure>
+      </div>
+    </main>
+  </div>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+    <button aria-label="Close">✕ Close</button>
+    <img alt="">
+  </div>
+
+  <footer>
+    © 2025 Valandi Angelidis — <a href="http://valandiangelidis.com/" target="_blank" rel="noopener">valandiangelidis.com</a>
+  </footer>
+
+  <script>
+    // LIGHTBOX
+    const lb=document.getElementById('lightbox'); const img=lb.querySelector('img');
+    document.querySelectorAll('.thumb').forEach(a=>{
+      a.addEventListener('click',e=>{e.preventDefault(); img.src=a.getAttribute('href'); lb.classList.add('open'); lb.setAttribute('aria-hidden','false');});
+    });
+    lb.addEventListener('click',e=>{ if(e.target===lb||e.target.tagName==='BUTTON'){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); img.removeAttribute('src'); }});
+    document.addEventListener('keydown',e=>{ if(e.key==='Escape'&&lb.classList.contains('open')) lb.click(); });
+  </script>
+</body>
+</html>
