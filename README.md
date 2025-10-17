@@ -1,4 +1,4 @@
-![Banner](profile-banner.png)
+![Banner](og-banner.png)
 
 # 👋 Hi, I’m Valandi Angelidis  
 🎨 **Full-Stack WordPress Developer | Designer | Automation Engineer**
