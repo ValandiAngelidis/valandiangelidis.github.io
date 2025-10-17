@@ -26,6 +26,13 @@ my work focuses on **clarity, performance, and modern architecture**.
 
 ---
 
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+---
+
 ### 🌍 Featured Projects
 | Project | Description | Tech Stack |
 |----------|--------------|------------|
@@ -38,7 +45,6 @@ my work focuses on **clarity, performance, and modern architecture**.
 | [**Geranion Village**](https://geranionvillage.com) | Luxury hotel website with online booking, developed with a **custom WordPress booking system**, **localized SEO**, and elegant UI for high-end user experience. | WordPress, WPML, Custom PHP/JS |
 | [**Quantum Wellness**](https://quantumwellness.gr) | Wellness and therapy center platform offering **online appointment booking**, **service presentation**, and **multilingual content structure**. Features dynamic forms, REST API integrations, and streamlined UI/UX design. | WordPress, Custom PHP/JS, REST API |
 
-
 ---
 
 ### 💼 Portfolio & Repositories
@@ -49,6 +55,13 @@ Explore my live portfolio hosted on GitHub Pages:
 - `valandiangelidis.github.io` – Full portfolio showcase  
 - *(coming soon)* Gutenberg Sample Blocks  
 - *(coming soon)* AI SEO Plugin  
+
+---
+
+### ⚙️ Currently Working On
+- Building AI-powered automation plugins for WordPress
+- Expanding the Helmed community with advanced CRM integrations
+- Experimenting with Gutenberg AI-assisted block generation
 
 ---
 
@@ -66,3 +79,9 @@ Explore my live portfolio hosted on GitHub Pages:
 ---
 
 ⭐ *If you enjoy my work or want to collaborate, feel free to star, fork, or reach out — I’m always open to exciting projects.*
+
+
+---
+### 📊 GitHub Stats
+![Valandi's GitHub stats](https://github-readme-stats.vercel.app/api?username=ValandiAngelidis&show_icons=true&theme=transparent)
+
