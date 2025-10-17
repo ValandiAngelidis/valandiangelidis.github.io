@@ -18,18 +18,21 @@ my work focuses on **clarity, performance, and modern architecture**.
 ---
 
 ### 🧰 Tech Stack
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![REST API](https://img.shields.io/badge/REST-02569B?style=for-the-badge&logo=api&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Adobe CC](https://img.shields.io/badge/Adobe%20CC-FF0000?style=for-the-badge&logo=adobecreativecloud&logoColor=white)
+
 **Languages:** PHP, JavaScript (ES6+), React, HTML, CSS, MySQL  
 **CMS:** WordPress, Gutenberg, WooCommerce  
 **Frameworks & Tools:** Node.js, REST API, JSON, Git, VS Code  
 **Design:** Figma, Adobe CC  
 **Automation:** n8n, GPT API, custom AI integrations  
-
----
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?style=for-the-badge&logo=wordpress&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ---
 
@@ -47,21 +50,26 @@ my work focuses on **clarity, performance, and modern architecture**.
 
 ---
 
+### ⚙️ Currently Working On
+- Building **AI-powered automation plugins** for WordPress  
+- Expanding **Helmed** with advanced CRM integrations and role-based dashboards  
+- Experimenting with **AI-assisted Gutenberg block generation**  
+
+---
+
+### 📊 GitHub Stats
+![Valandi's GitHub stats](https://github-readme-stats.vercel.app/api?username=ValandiAngelidis&show_icons=true&theme=transparent)
+
+---
+
 ### 💼 Portfolio & Repositories
 Explore my live portfolio hosted on GitHub Pages:  
 👉 [**valandiangelidis.github.io**](https://valandiangelidis.github.io)
 
-📦 Pinned repositories include:
+📦 **Pinned repositories include:**
 - `valandiangelidis.github.io` – Full portfolio showcase  
 - *(coming soon)* Gutenberg Sample Blocks  
 - *(coming soon)* AI SEO Plugin  
-
----
-
-### ⚙️ Currently Working On
-- Building AI-powered automation plugins for WordPress
-- Expanding the Helmed community with advanced CRM integrations
-- Experimenting with Gutenberg AI-assisted block generation
 
 ---
 
@@ -79,9 +87,3 @@ Explore my live portfolio hosted on GitHub Pages:
 ---
 
 ⭐ *If you enjoy my work or want to collaborate, feel free to star, fork, or reach out — I’m always open to exciting projects.*
-
-
----
-### 📊 GitHub Stats
-![Valandi's GitHub stats](https://github-readme-stats.vercel.app/api?username=ValandiAngelidis&show_icons=true&theme=transparent)
-
