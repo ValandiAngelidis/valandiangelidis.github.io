@@ -39,21 +39,32 @@ my work focuses on **clarity, performance, and modern architecture**.
 ### 🌍 Featured Projects
 | Project | Description | Tech Stack |
 |----------|--------------|------------|
-| [**Enola Global**](https://enolaglobal.com) | Advanced LGBTQ+ social network and event platform featuring **real-time chat**, **interactive maps**, **inbuilt CRM for organizers and promoters**, and **ticketing/event management**. Built entirely with **JetEngine**, **custom PHP/JS scripts**, and **WebSocket (SOCKS)** integrations for live communication. | WordPress, JetEngine, Custom PHP/JS, WebSocket, REST API |
-| [**Helmed**](https://helmed.org) | Private, **members-only medical community** designed for doctors and specialists. Includes **role-based access**, **realtime chat**, **forums**, **events**, and an **integrated CRM system** for professional networking and management. Offers dynamic user experiences through custom plugins and REST integrations. | WordPress, JetEngine, Custom PHP, JS, REST API |
-| [**Dr. Kartsiounis**](https://drkartsiounis.gr) | Professional medical website for a **Gynecologic Oncologist** specializing in **Laparoscopic and Robotic Surgery**. Built with a **custom Elementor layout system**, **JetEngine dynamic structure**, **TranslatePress multilingual setup**, and advanced appointment logic. The site emphasizes strong SEO through **RankMath**, fast performance, and a patient-centered user experience. | WordPress, Elementor, JetEngine, RankMath, TranslatePress, Custom PHP/JS |
-| [**Dr. Alexandros Traianos**](https://dralexandrostraianos.gr) | Website for a **Specialist in Reproductive Medicine and Fetal Medicine**, offering educational content, patient guidance, and appointment booking in four languages. Built with **Elementor**, **JetEngine**, and **TranslatePress**, featuring dynamic content architecture and multilingual SEO optimization powered by **RankMath**. | WordPress, Elementor, JetEngine, RankMath, TranslatePress, Custom PHP/JS |
-| [**Dr. Athina Traianou**](https://drathinatraianou.com) | Dermatology and Aesthetic Medicine website designed for a modern, professional image and strong local SEO. Includes custom **service modules**, **structured data integration**, and optimized UI for lead generation. Developed with **Elementor**, **JetEngine**, and **RankMath** for performance and discoverability. | WordPress, Elementor, JetEngine, RankMath, Custom PHP/JS |
-| [**Dr. Charis Dimopoulos**](https://dimopouloscharis.gr) | Internal Medicine website focused on preventive care and diagnostic excellence. Features **custom appointment system**, **dynamic medical content**, and **local SEO architecture** tailored for medical keywords. Developed with **Elementor**, **JetEngine**, and **RankMath** for speed and precision. | WordPress, Elementor, JetEngine, RankMath, Custom PHP/JS |
-| [**Geranion Village**](https://geranionvillage.com) | Luxury hotel website with online booking, developed with a **custom WordPress booking system**, **localized SEO**, and elegant UI for high-end user experience. | WordPress, WPML, Custom PHP/JS |
-| [**Quantum Wellness**](https://quantumwellness.gr) | Wellness and therapy center platform offering **online appointment booking**, **service presentation**, and **multilingual content structure**. Features dynamic forms, REST API integrations, and streamlined UI/UX design. | WordPress, Custom PHP/JS, REST API |
+| [**Enola Global**](https://enolaglobal.com) | Advanced LGBTQ+ social network and event platform featuring **real-time chat**, **interactive maps**, **inbuilt CRM**, and **ticketing/event management**. Built entirely with **JetEngine**, **custom PHP/JS**, and **WebSocket (SOCKS)** integrations. | WordPress, JetEngine, Custom PHP/JS, WebSocket, REST API |
+| [**Helmed**](https://helmed.org) | Private, **members-only medical community** for doctors and specialists. Includes **role-based access**, **chat**, **forums**, and **integrated CRM**. Powered by custom plugins and REST integrations. | WordPress, JetEngine, Custom PHP, JS, REST API |
+| [**Dr. Kartsiounis**](https://drkartsiounis.gr) | Medical website for a **Gynecologic Oncologist** specializing in **Laparoscopic & Robotic Surgery**. Features a **custom Elementor layout system** and **dynamic structure** with multilingual SEO optimization. | WordPress, Elementor, JetEngine, RankMath, TranslatePress, Custom PHP/JS |
+| [**Dr. Alexandros Traianos**](https://dralexandrostraianos.gr) | Website for a **Specialist in Reproductive Medicine and Fetal Medicine**, multilingual and dynamically structured. | WordPress, Elementor, JetEngine, RankMath, TranslatePress, Custom PHP/JS |
+| [**Dr. Athina Traianou**](https://drathinatraianou.com) | Dermatology & Aesthetic Medicine site with **structured data**, **custom modules**, and **local SEO**. | WordPress, Elementor, JetEngine, RankMath, Custom PHP/JS |
+| [**Dr. Charis Dimopoulos**](https://dimopouloscharis.gr) | Internal Medicine website with **custom appointment system** and **local SEO architecture**. | WordPress, Elementor, JetEngine, RankMath, Custom PHP/JS |
+| [**Geranion Village**](https://geranionvillage.com) | Luxury hotel site with custom booking, **localized SEO**, and **elegant UI**. | WordPress, WPML, Custom PHP/JS |
+| [**Quantum Wellness**](https://quantumwellness.gr) | Wellness platform with **online booking**, **multilingual support**, and **REST API integrations**. | WordPress, Custom PHP/JS, REST API |
+
+---
+
+### 🧩 Open-Source Repositories
+
+| Repository | Description | Type |
+|-------------|-------------|------|
+| [**pregnancy-due-date-calculator**](https://github.com/ValandiAngelidis/pregnancy-due-date-calculator) | Lightweight WordPress plugin to calculate expected due dates based on user input. Built with clean PHP logic and shortcode integration. | WordPress Plugin |
+| [**easy-custom-wp-login-register**](https://github.com/ValandiAngelidis/easy-custom-wp-login-register) | Lightweight and flexible WordPress plugin that lets you **fully customize Login, Register, and Password Reset pages** — no coding required. | WordPress Plugin |
+| [**rankmath-rest-api-enabler**](https://github.com/ValandiAngelidis/rankmath-rest-api-enabler) | Installable WordPress plugin that generates a Must-Use plugin to **register REST endpoints** for reading/writing Rank Math meta fields. Includes **Settings UI** and endpoint controls. | WordPress Plugin |
+| [**valandiangelidis.github.io**](https://github.com/ValandiAngelidis/valandiangelidis.github.io) | My personal **portfolio website**, showcasing professional projects, case studies, and design philosophy — built with modern frontend and markdown-driven structure. | Portfolio |
 
 ---
 
 ### ⚙️ Currently Working On
-- Building **AI-powered automation plugins** for WordPress  
+- Developing **AI-powered automation plugins**  
 - Expanding **Helmed** with advanced CRM integrations and role-based dashboards  
-- Experimenting with **AI-assisted Gutenberg block generation**  
+- Developing  **React Based Gutenberg block's**  
 
 ---
 
@@ -68,6 +79,9 @@ Explore my live portfolio hosted on GitHub Pages:
 
 📦 **Pinned repositories include:**
 - `valandiangelidis.github.io` – Full portfolio showcase  
+- `pregnancy-due-date-calculator` – WordPress due date calculator plugin  
+- `easy-custom-wp-login-register` – Custom login/register pages plugin  
+- `rankmath-rest-api-enabler` – REST API enabler for Rank Math  
 - *(coming soon)* Gutenberg Sample Blocks  
 - *(coming soon)* AI SEO Plugin  
 
